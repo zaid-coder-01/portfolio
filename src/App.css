@@ -1,38 +1,139 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+body{
+  background-color: whitesmoke;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.head{
+  height: 25rem;
+  width: 100vw;
+  background-color: gainsboro;
+  position: relative;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-around;
+}
+.text{
+ margin-left: 5rem;
+ margin-top: 6rem;
+}
+.text p{
+  font-size: 1.3rem;
+  word-spacing: 0.5rem;
+  font-family: 'Caveat', cursive;
+}
+.navbar-brand{
+  font-size: 2.5rem;
+  word-spacing: 0.5rem;
+  font-family: 'Crimson Text', serif;
+}
+.text h1,h2{
+  word-spacing: 0.7rem;
+  font-family: 'Crimson Text', serif;
+}
+.head img{
+  max-width: 27rem;
+  max-height: 23rem;
+  min-width: 27rem;
+  min-height: 23rem;
+  margin-top: 1.2rem;
+  padding: 1rem;
+  border: 8px solid rgb(112,79,238);
+  transform: rotate(1deg);
+  border-radius: 50%;
+}
+.about p{
+  text-align: justify;
+  font-family: 'Source Serif Pro', serif;
+  font-size: 1.3rem;
+}
+.contact{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 6rem;
+  height: 7rem;
+}
+.contact i{
+  font-size: 2.5rem;
+}
+.contact p{
+  padding-top: 2rem;
+}
+.about .det{
+  margin-left: 4rem;
+}
+.pr2{
+  margin-left: 5rem;
+}
+@media (max-width:768px) {
+  .skill,.about{
+    margin-left: 1rem;
+    width: 98%;
+  }
+  .about .det{
+    margin-left: 0rem;
+  }
+  .pr2{
+    margin-left: 0rem;
+  }
+  .about p{
+    font-family: 'Source Serif Pro', serif;
+    font-size: 0.6rem;
+    white-space: normal;
+    padding: 0;
+  }
+.contact{
+  display: block;
+  justify-content: center;
+  height: 100%;
+  margin-left: 2rem;
+}
+.con{
+  width: 95%;
+  margin-left: 1rem;
+}
+.contact i{
+  font-size: 2.5rem;
+  padding-top: 2rem;
+}
+.contact p{
+  padding-top: 1.5rem;
+}
+.head img{
+  max-width: 15rem;
+  max-height: 12rem;
+  min-width: 15rem;
+  min-height: 12rem;
+  margin-top: 1.2rem;
+  margin-left: 4rem;
+  padding: 1rem;
+  border: 8px solid rgb(112,79,238);
+  transform: rotate(1deg);
+  border-radius: 50%;
 }
 
-.App-link {
-  color: #61dafb;
+footer{
+  width: 100%;
+  height: 3rem;
+  background-color: gainsboro;
+padding-top: 1rem;
+}
+.head{
+  height: 25rem;
+  width: 100vw;
+  background-color: gainsboro;
+  position: relative;
+  display: block;
+  justify-content: space-around;
+}
+.text{
+ margin-left: 5rem;
+ margin-top: 0rem;
+ padding-top: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+
+footer{
+  width: 100vw;
+  height: 3rem;
+  background-color: gainsboro;
+padding-top: 1rem;
 }
